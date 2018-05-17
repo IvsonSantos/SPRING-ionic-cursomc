@@ -26,6 +26,7 @@ public class Categoria implements Serializable {
 	
 	private String nome;
 	
+	
 	@ManyToMany(mappedBy="categorias")
 	private List<Produto> produtos = new ArrayList<>();
 	
